@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/buddha.jpg"); 
+    background-size: 100% 100%;
+}
+
+.rain{
+    height: 100vh;
+    background-image: url("./images/rain.png");
+    animation: rain 2s linear 0s infinite ;
+}
+
+@keyframes rain{
+    from{background-position: 0% 0%;   }
+    to{ background-position: 30% 100%; }
+}
+
+    
+    
+/* body{ */
+    /* background-image: url("https://image.shutterstock.com/image-photo/ancient-temple-ruins-gadi-sagar-600w-786126286.jpg"); */
+
+
+/* #menu{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    animation: rain 2s linear 2s infinite;
+}
+body{
+background-image: url("https://media.istockphoto.com/photos/rain-fall-on-the-ground-picture-id1049365996?k=6&m=1049365996&s=612x612&w=0&h=B9SVdcbia5IAMRcF4kKsWohdTH3KV6DpObevzRdDg_w=");
+} */

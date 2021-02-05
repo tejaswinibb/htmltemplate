@@ -1,0 +1,42 @@
+
+ *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}  
+  
+#id1{
+    width: 200px;
+    height:200px;
+    background-color: dodgerblue;
+    border: 10px solid black;
+    padding: 50px;
+}
+#id2{
+    width: 200px;
+    height:200px ;
+    background-color:crimson;
+    border: 10px solid black;
+    padding: 60px;
+}
+#id3{
+    width: 200px;
+    height:200px ;
+    background-color:brown;
+    border: 10px solid black;
+    padding: 80px;
+}
+#id4{
+    width: 200px;
+    height:200px ;
+    background-color: blueviolet;
+    border: 10px solid black;
+    padding: 40px;
+}
+  #menu{
+    display: flex;
+    height: 400px;
+    justify-content:space-around; 
+     align-items: center;
+      
+}

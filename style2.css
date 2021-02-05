@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+#menu >li{
+    display: inline;
+    list-style :none;
+    padding: 15px;
+    color: crimson;
+    
+    
+}
+
+
+
+
+#menu >li a{
+text-decoration: none;
+}
+
+#menu{
+    background-color:rgb(206, 201, 195);
+    color:rgb(82, 4, 4);
+     height: 30px;
+    
+    }
+
+    div + p // this vll effect only for adjacent sibling only
+    /* div ~ h1 */this vll effect for whole general sibling
+    {
+        color: cornflowerblue;
+        border: 2px solid black;
+    }
+    
+    body{
+        font-family: 'Potta One', cursive;
+        /* background-image: url("./images/bokeh-lights-2592859__340.webp"); */
+        /* background-repeat:repeat; */
+        /* background-size: cover; */
+        
+    }
+

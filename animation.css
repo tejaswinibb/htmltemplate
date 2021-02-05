@@ -1,0 +1,111 @@
+/* #menu{
+    text-shadow: 5px 4px 13px brown;
+    animation: menu 2s linear 5s 3 alternate ;
+    position:relative
+}
+@keyframes menu{
+    from{
+        left:0;
+    }
+    to{
+        left:600px;
+    }
+} */
+/* #square{
+    width: 300px;
+    height: 100px;
+    background-color: cadetblue;
+    background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+    animation: circle 5s linear 1s infinite;
+    position: relative;
+
+}
+@keyframes circle{
+    from{
+        left:0;
+    }
+    to{
+        left:1000px;
+        border-radius: 100%;
+        background-image: url("https://www.searchenginejournal.com/wp-content/uploads/2018/10/How-to-Boost-Your-Images%E2%80%99-Visibility-on-Google-Images-760x400.png");
+    }
+} */
+/* 
+#menu{
+    width: 100%;
+    height: 100%;
+    background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+    animation: rain 3s linear 0s;
+    position: relative;
+}
+
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+    
+} 
+/* @keyframes rain{
+    from{
+        top:0px;
+
+    }
+    to{
+        bottom:100%;
+    }
+} */
+#menu
+    { 
+        position: relative; 
+        width: 100%; 
+        height: 100vh; 
+        background-image: url( "https://media.geeksforgeeks.org/wp-content/uploads/20200828184536/download-200x200.png"); 
+        background-size: cover; 
+        background-position: center; 
+        animation: color-change 10s linear infinite; 
+        animation-delay: 1s; 
+    } 
+
+ 
+#menu{
+                content: ""; 
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%; 
+                background-image: url( "https://media.geeksforgeeks.org/wp-content/uploads/20200828184719/rain-300x300.png"); 
+                animation: rain 0.4s linear infinite; 
+                opacity: 0; 
+             
+}
+body{
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20200828184719/rain-300x300.png");
+}
+
+@keyframes rain { 
+                0% { 
+                    background-position: 0 0; 
+                    opacity: 1; 
+                } 
+  
+                100% { 
+                    background-position: 8% 80%; 
+                    opacity: 1; 
+                } 
+            } 
+            /* applying filter at different angle 
+          on diffrent interval using keyframe*/ 
+@keyframes color-change { 
+                0% { 
+                    filter: hue-rotate(0deg); 
+                } 
+                50% { 
+                    filter: hue-rotate(0deg); 
+                } 
+                100% { 
+                    filter: hue-rotate(360deg); 
+                } 
+            } 
+
+   
+
+
